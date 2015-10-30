@@ -1,0 +1,34 @@
+{
+  "name": "grab-color-names",
+  "description": "Get a list of 1500+ color names, or random color names",
+  "main": "src/index.js",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stylecoder/grab-color-names"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js"
+  },
+  "keywords": [
+    "random",
+    "color",
+    "names"
+  ],
+  "author": "Marinda <hello@marinda.me> (http://marinda.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "commitizen": "^2.3.0",
+    "cz-conventional-changelog": "^1.1.4",
+    "mocha": "^2.3.3"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
+}
