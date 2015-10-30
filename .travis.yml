@@ -13,8 +13,6 @@ before_script:
   - npm prune
 after_success:
   - npm run semantic-release
-script:
-  - npm run test:single
 branches:
   except:
     - "/^v\\d+\\.\\d+\\.\\d+$/"
