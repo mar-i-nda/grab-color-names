@@ -9,7 +9,7 @@ Get an array of 1500+ color names. Alternatively get a single random color, or s
 
 ### commonjs modules -
 
-    var getColors = require('grab-color-names');
+    var getColors = require('grab-color-names'),
 		colorArray = getColors.all,             // array of 1500+ colors
 		oneRandomColor = getColors.random(),    // [ 'C4F4EB', 'Mint Tulip' ]
 		fiveRandomColors = getColors.random(5); // array of 5 random colors
