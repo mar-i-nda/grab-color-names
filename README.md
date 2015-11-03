@@ -7,15 +7,20 @@ Get an array of 1500+ color names. Alternatively get a single random color, or s
 ## Usage
 -----
 
-### browser -
-      TODO: add browser support
+### commonjs modules -
 
-### node.js -
+    var getColors = require('grab-color-names');
+		colorArray = getColors.all,             // array of 1500+ colors
+		oneRandomColor = getColors.random(),    // [ 'C4F4EB', 'Mint Tulip' ]
+		fiveRandomColors = getColors.random(5); // array of 5 random colors
 
-      var getColors = require('grab-color-names');
-      var colorArray = getColors.all;             // array of 1500+ colors
-      var oneRandomColor = getColors.random();    // [ 'C4F4EB', 'Mint Tulip' ]
-      var fiveRandomColors = getColors.random(5); // array of 5 random colors
+### babel modules -
+
+		import {allColors, randomColor} from 'grab-color-names';
+
+	var colorArray = allColors,            // array of 1500+ colors
+		oneRandomColor = randomColor(),    // [ 'C4F4EB', 'Mint Tulip' ]
+		fiveRandomColors = randomColor(5); // array of 5 random colors*/
 
 ## API
 

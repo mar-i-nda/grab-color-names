@@ -3,8 +3,8 @@ var colorNames = require('./color-names.json'),
   getRandomItem = uniqueRandomArray(colorNames);
 
 module.exports = {
-  all: colorNames,
-  random: function(number) {
+  allColors: colorNames,
+  randomColor: function(number) {
     if (number === 'undefined' || typeof number !== 'number') {
       return getRandomItem();
     } else {
