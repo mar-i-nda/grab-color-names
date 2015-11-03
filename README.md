@@ -16,11 +16,11 @@ Get an array of 1500+ color names. Alternatively get a single random color, or s
 
 ### babel modules -
 
-		import {allColors, randomColor} from 'grab-color-names';
+	import {allColors, randomColor} from 'grab-color-names';
 
 	var colorArray = allColors,            // array of 1500+ colors
 		oneRandomColor = randomColor(),    // [ 'C4F4EB', 'Mint Tulip' ]
-		fiveRandomColors = randomColor(5); // array of 5 random colors*/
+		fiveRandomColors = randomColor(5); // array of 5 random colors
 
 ## API
 
