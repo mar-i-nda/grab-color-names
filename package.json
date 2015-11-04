@@ -2,7 +2,7 @@
   "name": "grab-color-names",
   "description": "Get a list of 1500+ color names, or random color names",
   "main": "src/index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/stylecoder/grab-color-names"
