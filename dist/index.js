@@ -1,6 +1,6 @@
 'use strict';
 
-var _colorNames = require('color-names.json');
+var _colorNames = require('./color-names.json');
 
 var _colorNames2 = _interopRequireDefault(_colorNames);
 
