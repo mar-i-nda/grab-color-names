@@ -47,5 +47,6 @@
   },
   "jshintConfig": {
     "esnext": true
-  }
+  },
+  "tonicExampleFilename": "example.js"
 }
