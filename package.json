@@ -2,7 +2,7 @@
   "name": "grab-color-names",
   "description": "Get a list of 1500+ color names, or random color names",
   "main": "dist/index.js",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/marinda-s/grab-color-names"
@@ -16,11 +16,7 @@
     "test:single": "mocha src/index.test.js --compilers js:babel-core/register",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "keywords": [
-    "random",
-    "color",
-    "names"
-  ],
+  "keywords": ["random", "color", "names"],
   "author": "Marinda <hello@marinda.me> (http://marinda.me/)",
   "license": "MIT",
   "dependencies": {
