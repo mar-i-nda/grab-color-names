@@ -16,22 +16,26 @@
     "test:single": "mocha src/index.test.js --compilers js:babel-core/register",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "keywords": ["random", "color", "names"],
+  "keywords": [
+    "random",
+    "color",
+    "names"
+  ],
   "author": "Marinda <hello@marinda.me> (http://marinda.me/)",
   "license": "MIT",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.1.1",
-    "babel-core": "^6.0.20",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
     "babel-preset-es2015": "^6.0.15",
     "chai": "^3.4.0",
-    "commitizen": "^2.3.0",
+    "commitizen": "2.10.1",
     "cz-conventional-changelog": "^1.1.4",
     "ghooks": "^0.3.2",
-    "mocha": "^2.3.3",
-    "semantic-release": "^4.3.5"
+    "mocha": "5.2.0",
+    "semantic-release": "15.7.1"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
