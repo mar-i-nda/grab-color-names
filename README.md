@@ -1,6 +1,6 @@
 # grab-color-names
 
-[![travis build](https://img.shields.io/travis/marinda-s/grab-color-names.svg?style=flat-square)](https://travis-ci.org/marinda-s/grab-color-names)
+[![travis build](https://img.shields.io/travis/mariiinda/grab-color-names.svg?style=flat-square)](https://travis-ci.org/mariiinda/grab-color-names)
 [![npm](https://img.shields.io/npm/dm/grab-color-names.svg?style=flat-square)](https://www.npmjs.com/package/grab-color-names)
 
 Get an array of 1500+ color names. Alternatively get a single random color, or specify the amount of random colors to return.
